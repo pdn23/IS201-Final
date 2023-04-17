@@ -1,0 +1,53 @@
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.emphasizedText{
+    font-style: italic;
+    color: #003DA5;
+}
+
+.altEmphasizedText{
+    font-variant-caps: petite-caps;
+    color: #003DA5;
+}
+
+body{
+    background-color: seashell;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+#TopPage{
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+
+ol{
+    display: inline-block;
+    text-align: left;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
+.pictureLeft{
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: -50px;
+}
+
+.pictureRight{
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: -50px;
+}
